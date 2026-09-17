@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 72px;
+    background-color: darkblue;
+    color: white
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+.right-links a {
+    text-decoration: none;
+    color: lightgray;
+}
