@@ -93,3 +93,60 @@ body {
     text-align: center;
     color: rgb(75 85 99);
 }
+
+.quote-block {
+    background-color: lightgray;
+    padding: 30px 20%;
+    color: black;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.signup-block {
+    background-color: white;
+    padding: 30px 5%;
+}
+
+.signup-subblock {
+    background: rgb(59 130 246);
+    border-radius: 5px;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.signup-block p {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.signup-block button {
+    cursor: pointer;
+    background-color: rgb(59 130 246);
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    height: 40px;
+    align-self: center;
+    color: white;
+    padding: 3px 30px;
+}
+
+.footer p {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
