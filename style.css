@@ -1,22 +1,30 @@
 body {
+    font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
     padding: 8px;
     margin: 0;
-    background-color: rgb(25, 31, 42);
+    background-color: #1F2937;
     color: white;
 }
-
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
     margin: 0 15%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .right-links {
     display: flex;
     gap: 16px;
+    font-weight: 100;
 }
 .right-links a {
     text-decoration: none;
@@ -27,32 +35,52 @@ body {
 }
 
 .intro-block {
-    height: 300px;
-    gap: 16px;
+    gap: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 15%;
+    padding: 40px 15%;
 }
 
 .intro-subblock {
-    width: 400px;
+    flex: 2;
+}
+
+.intro-subblock h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0
+}
+
+.intro-subblock p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .signup-button-1 {
-    padding: 4px 16px;
-    background-color: rgb(59 130 246);
+    padding: 5px 20px;
+    background-color: #3882F6;
     color: white;
     border-radius: 5px;
     border: 0;
     cursor: pointer;
 }
 
-.intro-img {
-    flex-grow: 1;
-    height: 150px;
-    background-color: darkgray
+.img-container {
+    height: 250px;
+    width: 300px;
+    background-color: darkgray;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.img-placeholder {
+    font-weight: 100;
+}
+
 
 .info-block {
     background-color: white;
@@ -61,6 +89,9 @@ body {
 }
 
 .info-block h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
     text-align: center;
 }
 
@@ -77,7 +108,7 @@ body {
     justify-content: center;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(59 130 246);
+    border-color: #3882F6;
     border-width: 3px;
 }
 
@@ -95,13 +126,15 @@ body {
 }
 
 .quote-block {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     padding: 30px 20%;
     color: black;
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -117,7 +150,7 @@ body {
 }
 
 .signup-subblock {
-    background: rgb(59 130 246);
+    background: #3882F6;
     border-radius: 5px;
     padding: 10px 10%;
     display: flex;
