@@ -1,18 +1,17 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 48px 72px;
-    background-color: darkblue;
-    color: white
+    padding: 8px;
+    margin: 0;
+    background-color: rgb(25, 31, 42);
+    color: white;
 }
+
 
 .header {
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    align-self: center;
+    margin: 0 15%;
 }
 
 .right-links {
@@ -21,5 +20,76 @@ body {
 }
 .right-links a {
     text-decoration: none;
-    color: lightgray;
+}
+
+.low-contrast {
+    color: rgb(229 231 235);
+}
+
+.intro-block {
+    height: 300px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.intro-subblock {
+    width: 400px;
+}
+
+.signup-button-1 {
+    padding: 4px 16px;
+    background-color: rgb(59 130 246);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.intro-img {
+    flex-grow: 1;
+    height: 150px;
+    background-color: darkgray
+}
+
+.info-block {
+    background-color: white;
+    padding: 8px 20%;
+    color: black;
+}
+
+.info-block h2 {
+    text-align: center;
+}
+
+.info-subblock-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.info-subblock-div img {
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(59 130 246);
+    border-width: 3px;
+}
+
+.info-subblock {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-subblock p {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(75 85 99);
 }
